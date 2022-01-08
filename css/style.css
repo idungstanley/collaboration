@@ -1,0 +1,64 @@
+body {
+  background-color: #1b1b32;
+  font-family: Verdana;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0;
+}
+
+nav{
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+ section{
+   background-color: fff;
+   max-width: 500px;
+   margin: 50px auto;
+   padding: 30px 20px;
+   box-shadow: 2px 5px 10px rgba(27, 27, 50, 0.8);
+ }
+
+ .email{
+     border: 1px solid #777;
+     border-radius: 2px;
+     font-family: inherit;
+     padding: 10px;
+     display: block;
+     width: 95%;
+ }
+
+.name{
+  border: 1px solid #777;
+  border-radius: 2px;
+  font-family: inherit;
+  padding: 10px;
+  display: block;
+  width: 95%;
+
+}
+
+.age{
+  border: 1px solid #777;
+  border-radius: 2px;
+  font-family: inherit;
+  padding: 10px;
+  display: block;
+  width: 95%;
+}
+
+.role{
+  border: 1px solid #777;
+  border-radius: 2px;
+  font-family: inherit;
+  padding: 10px;
+  display: block;
+  width: 95%;
+}
+
+.radio{
+    display: inline-flex;
+    width: auto;
+}
