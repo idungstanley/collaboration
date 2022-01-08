@@ -14,14 +14,14 @@ nav{
   text-align: left;
 }
  section{
-   background-color: fff;
+    background-color: #0b0b18;
    max-width: 500px;
    margin: 50px auto;
    padding: 30px 20px;
    box-shadow: 2px 5px 10px rgba(27, 27, 50, 0.8);
  }
 
- .email{
+ #email{
      border: 1px solid #777;
      border-radius: 2px;
      font-family: inherit;
@@ -29,8 +29,12 @@ nav{
      display: block;
      width: 95%;
  }
+label{
+    color: white;
+    text-align: left;
+}
+#name{
 
-.name{
   border: 1px solid #777;
   border-radius: 2px;
   font-family: inherit;
@@ -40,7 +44,7 @@ nav{
 
 }
 
-.age{
+#age{
   border: 1px solid #777;
   border-radius: 2px;
   font-family: inherit;
@@ -49,7 +53,7 @@ nav{
   width: 95%;
 }
 
-.role{
+#role{
   border: 1px solid #777;
   border-radius: 2px;
   font-family: inherit;
@@ -58,7 +62,7 @@ nav{
   width: 95%;
 }
 
-.radio{
+#radio{
     display: inline-flex;
     width: auto;
 }
